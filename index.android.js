@@ -4,17 +4,15 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+import React from 'react';
 import {
   AppRegistry,
-  StyleSheet,
-  Text,
   View
 } from 'react-native';
 import Header from './src/components/header';
 import AlbumList from './src/components/AlbumList';
 const App = () => (
-    <View>
+    <View style={{flex:1}}>
       <Header headerText={'React-native'} />
       <AlbumList/>
     </View>
